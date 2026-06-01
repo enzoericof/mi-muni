@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760">
+  <defs>
+    <linearGradient id="truck-orange" x1="230" y1="120" x2="520" y2="575" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6c13"/>
+      <stop offset="0.48" stop-color="#ff4f12"/>
+      <stop offset="1" stop-color="#f0440b"/>
+    </linearGradient>
+    <linearGradient id="truck-dark" x1="205" y1="325" x2="555" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#27343c"/>
+      <stop offset="1" stop-color="#151e24"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="380" cy="380" r="337" fill="#fff"/>
+  <circle cx="380" cy="380" r="321" fill="none" stroke="#ff4f12" stroke-width="16"/>
+
+  <path
+    d="M246 216C249 184 257 160 283 160H477C503 160 511 184 514 216H542C560 216 571 229 574 250L599 545H161L186 250C189 229 200 216 218 216H246Z"
+    fill="url(#truck-orange)"
+  />
+
+  <path
+    d="M187 330C193 310 209 298 232 298H528C551 298 567 310 573 330L590 539C594 582 563 600 523 600H237C197 600 166 582 170 539L187 330Z"
+    fill="#fff"
+  />
+
+  <path
+    d="M224 352C229 334 243 324 263 324H497C517 324 531 334 536 352L553 429C559 456 540 479 512 479H248C220 479 201 456 207 429L224 352Z"
+    fill="url(#truck-dark)"
+  />
+
+  <rect x="303" y="501" width="154" height="52" rx="14" fill="url(#truck-dark)"/>
+  <rect x="222" y="496" width="61" height="47" rx="13" transform="rotate(6 252.5 519.5)" fill="url(#truck-dark)"/>
+  <rect x="477" y="496" width="61" height="47" rx="13" transform="rotate(-6 507.5 519.5)" fill="url(#truck-dark)"/>
+
+  <rect x="196" y="558" width="368" height="55" rx="14" fill="url(#truck-dark)"/>
+  <rect x="209" y="603" width="79" height="50" rx="11" fill="url(#truck-dark)"/>
+  <rect x="472" y="603" width="79" height="50" rx="11" fill="url(#truck-dark)"/>
+
+  <rect x="149" y="360" width="40" height="78" rx="13" fill="url(#truck-dark)"/>
+  <rect x="571" y="360" width="40" height="78" rx="13" fill="url(#truck-dark)"/>
+  <path d="M189 442H180C168 442 158 432 158 420V398" fill="none" stroke="url(#truck-dark)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M571 442H580C592 442 602 432 602 420V398" fill="none" stroke="url(#truck-dark)" stroke-width="9" stroke-linecap="round"/>
+
+  <path d="M354 205V194C354 182 364 173 376 173H384C396 173 406 182 406 194V205" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M336 212H424" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+  <path d="M343 232H417V285C417 310 401 324 380 324C359 324 343 310 343 285V232Z" fill="#fff"/>
+  <path d="M362 255V292M380 255V292M398 255V292" stroke="#ff4f12" stroke-width="9" stroke-linecap="round"/>
+</svg>

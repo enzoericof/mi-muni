@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap');
+
+/* Global stylesheet entrypoint. Keep imports ordered to preserve cascade. */
+@import './styles/01-base.css';
+@import './styles/02-header.css';
+@import './styles/03-global-buttons.css';
+@import './styles/04-page-hero.css';
+@import './styles/05-tramites-search.css';
+@import './styles/06-footer.css';
+@import './styles/07-collection-map.css';
+@import './styles/08-landing.css';
+@import './styles/09-info-shell-auth.css';
+@import './styles/10-admin-interno.css';
+@import './styles/11-baches.css';
+@import './styles/12-admin-muni.css';
+@import './styles/13-trash-map.css';
+@import './styles/14-profile.css';
+@import './styles/15-recolector.css';

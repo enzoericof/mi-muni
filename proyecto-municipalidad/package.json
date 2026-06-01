@@ -1,0 +1,48 @@
+{
+  "name": "mi-muni",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "dev:front": "vite --host 127.0.0.1 --port 4173",
+    "dev:back": "node --watch server/index.js",
+    "docker:logs": "docker compose logs -f --tail=60 backend worker frontend",
+    "docker:stop": "powershell -ExecutionPolicy Bypass -File scripts/stop-project.ps1",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "server:dev": "node --watch server/index.js",
+    "simulate:recolector": "node server/scripts/simulateRecolector.js",
+    "spider": "node server/spider/index.js",
+    "collection:assets": "python server/scripts/buildCollectionAssets.py",
+    "municipalities:bootstrap": "node server/scripts/bootstrapMunicipalities.js",
+    "corpus:fetch": "node server/scripts/fetchSources.js",
+    "corpus:build": "node server/scripts/buildCorpus.js",
+    "rag:evaluate": "node server/scripts/evaluateRag.js"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.3.3",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "framer-motion": "^12.38.0",
+    "google-auth-library": "^10.6.2",
+    "jszip": "^3.10.1",
+    "leaflet": "^1.9.4",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.7",
+    "openai": "^6.34.0",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.13.3",
+    "playwright": "^1.59.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^5.4.12"
+  }
+}

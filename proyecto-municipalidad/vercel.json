@@ -1,0 +1,65 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/munita",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/recoleccion",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/baches",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/desarrollador",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/admin-muni",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/perfil",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/ciudad",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/mapa",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/mapa-basura",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/admin",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/admin-interno",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/admin-recoleccion",
+      "destination": "/index.html"
+    }
+  ],
+  "functions": {
+    "api/index.js": {
+      "maxDuration": 60
+    }
+  }
+}

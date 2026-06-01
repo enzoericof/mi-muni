@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.local
+.env.*
+!.env.example
+!.env.local.example
+env.download
+*.env.download
+*.log
+dev.err
+dev.log
+fiweex page.txt
+
+.vercel
+.env*.local

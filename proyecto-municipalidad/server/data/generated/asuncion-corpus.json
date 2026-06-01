@@ -1,0 +1,2138 @@
+{
+  "generatedAt": "2026-04-13T11:33:22.805Z",
+  "procedures": [
+    {
+      "id": "info-municipal",
+      "titulo": "Información municipal",
+      "descripcion": "Referencia general sobre horarios, canales de atención y puntos de orientación municipal.",
+      "resumen": "Agrupa datos básicos para saber cuándo y por dónde iniciar una consulta municipal.",
+      "categoria": "institucional",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/"
+      },
+      "fecha": "2026-04-11",
+      "secciones": {
+        "horarios": [
+          "Atención general: lunes a viernes de 07:00 a 16:00, sábados de 07:30 a 11:30."
+        ],
+        "resultado": [
+          "Orientación inicial para saber por dónde continuar la consulta o el trámite."
+        ],
+        "descripcion": [
+          "Sirve como punto de partida para ubicar horarios generales, canales de consulta y centros de atención."
+        ],
+        "lugar_canal": [
+          "Portal ciudadano en portal-ciudadano.asuncion.gov.py, dependencias municipales, centros municipales y teléfono (+595 21) 627-3000."
+        ],
+        "observaciones": [
+          "Los horarios y canales pueden variar según la dependencia responsable y el servicio consultado."
+        ]
+      },
+      "sectionOrder": [
+        "horarios",
+        "lugar_canal",
+        "descripcion",
+        "resultado",
+        "observaciones"
+      ]
+    },
+    {
+      "id": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "descripcion": "Trámite municipal para renovar una licencia próxima a vencer o ya vencida.",
+      "resumen": "Consulta requisitos, tasas y pasos para renovar la licencia.",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "secciones": {
+        "pasos": [
+          "Verificar multas pendientes antes de iniciar.",
+          "Reunir los documentos requeridos según la categoría.",
+          "Acudir a la dependencia municipal habilitada en horario de atención."
+        ],
+        "costos": [
+          "Pago de tasa municipal según la categoría de licencia. Consultar montos actualizados en recaudaciones."
+        ],
+        "plazos": [
+          "El tiempo de procesamiento depende del control documental y la validación interna."
+        ],
+        "horarios": [
+          "Lunes a viernes de 08:00 a 15:00. Sábados de 07:30 a 11:00."
+        ],
+        "resultado": [
+          "Entrega o actualización de la licencia renovada."
+        ],
+        "requisitos": [
+          "Cédula de identidad vigente.",
+          "Licencia anterior (original).",
+          "Comprobante de pago de tasas municipales."
+        ],
+        "descripcion": [
+          "Permite actualizar la habilitación para conducir dentro de la vigencia municipal."
+        ],
+        "lugar_canal": [
+          "Atención presencial en dependencias habilitadas. Horario: lunes a viernes de 08:00 a 15:00, sábados de 07:30 a 11:00."
+        ],
+        "observaciones": [
+          "Verificar previamente multas, horarios y requisitos específicos según la categoría de licencia."
+        ]
+      },
+      "sectionOrder": [
+        "descripcion",
+        "requisitos",
+        "pasos",
+        "costos",
+        "plazos",
+        "lugar_canal",
+        "horarios",
+        "resultado",
+        "observaciones"
+      ]
+    },
+    {
+      "id": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "descripcion": "Trámite para registrar o renovar la habilitación de un local comercial, industrial o profesional.",
+      "resumen": "Ordena documentación, valida la actividad y revisa el canal de presentación.",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "secciones": {
+        "pasos": [
+          "Reunir documentación requerida según el tipo de actividad.",
+          "Verificar si la actividad requiere condiciones o habilitaciones adicionales.",
+          "Presentar la solicitud en la dependencia correspondiente o por el portal habilitado."
+        ],
+        "costos": [
+          "El costo depende del tipo de actividad y categoría comercial. Consultar en la sección de formularios y requisitos."
+        ],
+        "plazos": [
+          "La validación depende del control documental y de la revisión del rubro declarado."
+        ],
+        "horarios": [
+          "Lunes a viernes de 07:00 a 16:00."
+        ],
+        "resultado": [
+          "Registro o renovación de la licencia o patente comercial habilitada."
+        ],
+        "requisitos": [
+          "Datos del titular o representante legal.",
+          "Documentación del local (planos, contrato de alquiler o título de propiedad).",
+          "Descripción detallada de la actividad comercial a desarrollar."
+        ],
+        "descripcion": [
+          "Permite iniciar o renovar la habilitación municipal para operar una actividad comercial, industrial o de servicios profesionales."
+        ],
+        "lugar_canal": [
+          "Atención presencial o a través del portal ciudadano en portal-ciudadano.asuncion.gov.py."
+        ],
+        "observaciones": [
+          "Algunas actividades pueden requerir inspecciones o validaciones complementarias antes de la habilitación."
+        ]
+      },
+      "sectionOrder": [
+        "descripcion",
+        "requisitos",
+        "pasos",
+        "costos",
+        "plazos",
+        "lugar_canal",
+        "horarios",
+        "resultado",
+        "observaciones"
+      ]
+    },
+    {
+      "id": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "descripcion": "Consulta de tasas, vencimientos y medios de pago asociados a la patente comercial e impuestos municipales.",
+      "resumen": "Ayuda a ubicar vencimientos, cuenta y canal de pago.",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "secciones": {
+        "pasos": [
+          "Ingresar al sistema de recaudación en línea o acudir a ventanilla.",
+          "Ubicar la cuenta o referencia del impuesto.",
+          "Revisar el estado de la obligación y vencimientos.",
+          "Realizar el pago por el canal disponible."
+        ],
+        "costos": [
+          "Monto sujeto al estado de cuenta y la obligación municipal. Descuento del 8% para pagos en efectivo. Consultar promociones vigentes de exención de multas."
+        ],
+        "plazos": [
+          "Revisar vigencia y vencimientos informados. Hasta el 30/04/2026 hay exención del 100% de multas por regularización."
+        ],
+        "horarios": [
+          "Los horarios dependen del canal de pago elegido."
+        ],
+        "resultado": [
+          "Regularización del pago o confirmación de estado de cuenta al día."
+        ],
+        "requisitos": [
+          "Número de cuenta o referencia municipal.",
+          "Documento del titular o representante."
+        ],
+        "descripcion": [
+          "Centraliza la consulta de pagos, vencimientos y regularización vinculada a la patente comercial e impuestos municipales."
+        ],
+        "lugar_canal": [
+          "Pago en línea en gestionasu.asuncion.gov.py, cajas habilitadas o dependencias de administración y finanzas."
+        ],
+        "observaciones": [
+          "Conviene revisar si existen recargos, intereses o vencimientos acumulados antes de pagar."
+        ]
+      },
+      "sectionOrder": [
+        "descripcion",
+        "requisitos",
+        "pasos",
+        "costos",
+        "plazos",
+        "lugar_canal",
+        "horarios",
+        "resultado",
+        "observaciones"
+      ]
+    },
+    {
+      "id": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "descripcion": "Servicio para seguir reclamos, expedientes o gestiones iniciadas por el ciudadano ante la municipalidad.",
+      "resumen": "Permite ubicar el canal correcto y revisar el estado de una gestión o reclamo.",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "secciones": {
+        "pasos": [
+          "Acceder al sistema de reclamos en línea o al portal ciudadano.",
+          "Ingresar el número de expediente o datos del reclamo.",
+          "Consultar el estado actualizado de la gestión.",
+          "Escalar o ampliar la gestión si corresponde."
+        ],
+        "costos": [
+          "La consulta del estado es gratuita. Algunos trámites asociados pueden tener costo según el tipo de gestión."
+        ],
+        "plazos": [
+          "Los tiempos varían según la dependencia responsable y la naturaleza del reclamo."
+        ],
+        "horarios": [
+          "Atención presencial: lunes a viernes de 07:00 a 16:00."
+        ],
+        "resultado": [
+          "Confirmación del estado del reclamo o derivación al área correspondiente."
+        ],
+        "requisitos": [
+          "Número de expediente o reclamo si ya fue iniciado.",
+          "Datos del solicitante (nombre, cédula)."
+        ],
+        "descripcion": [
+          "Ayuda a identificar el canal municipal correcto para reclamos, consultas o seguimiento de expedientes sin necesidad de acudir presencialmente."
+        ],
+        "lugar_canal": [
+          "Sistema de reclamos online en appserver.asuncion.gov.py/reclamosmca, portal ciudadano o mesa de atención presencial."
+        ],
+        "observaciones": [
+          "Si no se cuenta con número de expediente, conviene identificar primero la dependencia responsable del reclamo."
+        ]
+      },
+      "sectionOrder": [
+        "descripcion",
+        "requisitos",
+        "pasos",
+        "costos",
+        "plazos",
+        "lugar_canal",
+        "horarios",
+        "resultado",
+        "observaciones"
+      ]
+    },
+    {
+      "id": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "descripcion": "Información geográfica y operativa sobre las 11 oficinas municipales distribuidas por barrios de Asunción.",
+      "resumen": "Ayuda a identificar el centro municipal que corresponde según el barrio o trámite.",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "secciones": {
+        "pasos": [
+          "Consultar el listado de centros municipales y sus coberturas.",
+          "Identificar el centro correspondiente al barrio.",
+          "Verificar si el centro atiende el trámite específico buscado.",
+          "Acudir en el horario de atención correspondiente."
+        ],
+        "costos": [
+          "La consulta de ubicación no tiene costo. Los trámites asociados dependen del servicio solicitado."
+        ],
+        "plazos": [
+          "La derivación depende de la disponibilidad del centro y del trámite específico."
+        ],
+        "horarios": [
+          "Los horarios dependen de cada centro municipal. Consultar el listado para horarios específicos."
+        ],
+        "resultado": [
+          "Identificación del centro municipal más adecuado para la consulta o el trámite."
+        ],
+        "requisitos": [
+          "Conocer el barrio o zona donde se necesita realizar el trámite."
+        ],
+        "descripcion": [
+          "Agrupa los 11 puntos de atención municipal distribuidos por barrios, con cobertura territorial y horarios disponibles."
+        ],
+        "lugar_canal": [
+          "11 centros municipales distribuidos en los barrios de Asunción. Consultar direcciones y teléfonos en el listado oficial."
+        ],
+        "observaciones": [
+          "Es recomendable confirmar telefónicamente si el centro atiende el trámite específico antes de acudir."
+        ]
+      },
+      "sectionOrder": [
+        "descripcion",
+        "requisitos",
+        "pasos",
+        "costos",
+        "plazos",
+        "lugar_canal",
+        "horarios",
+        "resultado",
+        "observaciones"
+      ]
+    },
+    {
+      "id": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "descripcion": "Información general sobre pagos municipales, recaudación, medios de pago y obligaciones frecuentes.",
+      "resumen": "Sirve para orientar consultas de tasas, impuestos, vencimientos y medios de pago disponibles.",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "secciones": {
+        "pasos": [
+          "Identificar la obligación o tasa municipal a pagar.",
+          "Acceder al sistema en línea o acudir a caja habilitada.",
+          "Revisar el estado de cuenta o vencimiento.",
+          "Elegir el canal de pago y completar la operación."
+        ],
+        "costos": [
+          "El monto depende del tributo, tasa o patente consultada. Descuento del 8% pagando en efectivo. Exención de multas vigente hasta el 30/04/2026."
+        ],
+        "plazos": [
+          "Los vencimientos y recargos dependen del calendario de cada obligación municipal."
+        ],
+        "horarios": [
+          "Los horarios dependen del canal elegido para realizar el pago o la consulta."
+        ],
+        "resultado": [
+          "Orientación para ubicar el tributo correcto y completar el pago por el medio disponible."
+        ],
+        "requisitos": [
+          "Número de cuenta, documento del titular o referencia del impuesto consultado."
+        ],
+        "descripcion": [
+          "Reúne información general para consultas frecuentes vinculadas a recaudación, impuestos y tasas municipales de Asunción."
+        ],
+        "lugar_canal": [
+          "Sistema en línea en gestionasu.asuncion.gov.py, portal de recaudaciones, cajas habilitadas o dependencias de administración y finanzas."
+        ],
+        "observaciones": [
+          "Conviene confirmar si el pago puede realizarse en línea o si requiere atención presencial según el tipo de obligación."
+        ]
+      },
+      "sectionOrder": [
+        "descripcion",
+        "requisitos",
+        "pasos",
+        "costos",
+        "plazos",
+        "lugar_canal",
+        "horarios",
+        "resultado",
+        "observaciones"
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "id": "reclamos-pasos-2",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Consultar el estado actualizado de la gestión.",
+      "seccion": "pasos",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-pasos-3",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Escalar o ampliar la gestión si corresponde.",
+      "seccion": "pasos",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-costos-0",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "La consulta del estado es gratuita. Algunos trámites asociados pueden tener costo según el tipo de gestión.",
+      "seccion": "costos",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-plazos-0",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Los tiempos varían según la dependencia responsable y la naturaleza del reclamo.",
+      "seccion": "plazos",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-lugar_canal-0",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Sistema de reclamos online en appserver.asuncion.gov.py/reclamosmca, portal ciudadano o mesa de atención presencial.",
+      "seccion": "lugar_canal",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-horarios-0",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Atención presencial: lunes a viernes de 07:00 a 16:00.",
+      "seccion": "horarios",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-resultado-0",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Confirmación del estado del reclamo o derivación al área correspondiente.",
+      "seccion": "resultado",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-observaciones-0",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Si no se cuenta con número de expediente, conviene identificar primero la dependencia responsable del reclamo.",
+      "seccion": "observaciones",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-descripcion",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Centros municipales y atención por barrio. Información geográfica y operativa sobre las 11 oficinas municipales distribuidas por barrios de Asunción. Ayuda a identificar el centro municipal que corresponde según el barrio o trámite.",
+      "seccion": "descripcion",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-requisitos-0",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Conocer el barrio o zona donde se necesita realizar el trámite.",
+      "seccion": "requisitos",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-pasos-0",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Consultar el listado de centros municipales y sus coberturas.",
+      "seccion": "pasos",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-pasos-1",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Identificar el centro correspondiente al barrio.",
+      "seccion": "pasos",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-pasos-2",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Verificar si el centro atiende el trámite específico buscado.",
+      "seccion": "pasos",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-pasos-3",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Acudir en el horario de atención correspondiente.",
+      "seccion": "pasos",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-costos-0",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "La consulta de ubicación no tiene costo. Los trámites asociados dependen del servicio solicitado.",
+      "seccion": "costos",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-plazos-0",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "La derivación depende de la disponibilidad del centro y del trámite específico.",
+      "seccion": "plazos",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-lugar_canal-0",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "11 centros municipales distribuidos en los barrios de Asunción. Consultar direcciones y teléfonos en el listado oficial.",
+      "seccion": "lugar_canal",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-horarios-0",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Los horarios dependen de cada centro municipal. Consultar el listado para horarios específicos.",
+      "seccion": "horarios",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-resultado-0",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Identificación del centro municipal más adecuado para la consulta o el trámite.",
+      "seccion": "resultado",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "centros-observaciones-0",
+      "procedureId": "centros",
+      "titulo": "Centros municipales y atención por barrio",
+      "text": "Es recomendable confirmar telefónicamente si el centro atiende el trámite específico antes de acudir.",
+      "seccion": "observaciones",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Centros municipales — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/centros-municipales"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-descripcion",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Tasas y recaudación municipal. Información general sobre pagos municipales, recaudación, medios de pago y obligaciones frecuentes. Sirve para orientar consultas de tasas, impuestos, vencimientos y medios de pago disponibles.",
+      "seccion": "descripcion",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-requisitos-0",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Número de cuenta, documento del titular o referencia del impuesto consultado.",
+      "seccion": "requisitos",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-pasos-0",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Identificar la obligación o tasa municipal a pagar.",
+      "seccion": "pasos",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-pasos-1",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Acceder al sistema en línea o acudir a caja habilitada.",
+      "seccion": "pasos",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "info-municipal-observaciones-0",
+      "procedureId": "info-municipal",
+      "titulo": "Información municipal",
+      "text": "Los horarios y canales pueden variar según la dependencia responsable y el servicio consultado.",
+      "seccion": "observaciones",
+      "categoria": "institucional",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-descripcion",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Renovación de licencia de conducir. Trámite municipal para renovar una licencia próxima a vencer o ya vencida. Consulta requisitos, tasas y pasos para renovar la licencia.",
+      "seccion": "descripcion",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-requisitos-0",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Cédula de identidad vigente.",
+      "seccion": "requisitos",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-requisitos-1",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Licencia anterior (original).",
+      "seccion": "requisitos",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-requisitos-2",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Comprobante de pago de tasas municipales.",
+      "seccion": "requisitos",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-pasos-0",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Verificar multas pendientes antes de iniciar.",
+      "seccion": "pasos",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-pasos-1",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Reunir los documentos requeridos según la categoría.",
+      "seccion": "pasos",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-pasos-2",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Acudir a la dependencia municipal habilitada en horario de atención.",
+      "seccion": "pasos",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-costos-0",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Pago de tasa municipal según la categoría de licencia. Consultar montos actualizados en recaudaciones.",
+      "seccion": "costos",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-plazos-0",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "El tiempo de procesamiento depende del control documental y la validación interna.",
+      "seccion": "plazos",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-lugar_canal-0",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Atención presencial en dependencias habilitadas. Horario: lunes a viernes de 08:00 a 15:00, sábados de 07:30 a 11:00.",
+      "seccion": "lugar_canal",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-horarios-0",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Lunes a viernes de 08:00 a 15:00. Sábados de 07:30 a 11:00.",
+      "seccion": "horarios",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-resultado-0",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Entrega o actualización de la licencia renovada.",
+      "seccion": "resultado",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "licencia-observaciones-0",
+      "procedureId": "licencia",
+      "titulo": "Renovación de licencia de conducir",
+      "text": "Verificar previamente multas, horarios y requisitos específicos según la categoría de licencia.",
+      "seccion": "observaciones",
+      "categoria": "licencia",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Requisitos para licencias de conducir — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-descripcion",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Habilitación comercial. Trámite para registrar o renovar la habilitación de un local comercial, industrial o profesional. Ordena documentación, valida la actividad y revisa el canal de presentación.",
+      "seccion": "descripcion",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-requisitos-0",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Datos del titular o representante legal.",
+      "seccion": "requisitos",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-requisitos-1",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Documentación del local (planos, contrato de alquiler o título de propiedad).",
+      "seccion": "requisitos",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-requisitos-2",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Descripción detallada de la actividad comercial a desarrollar.",
+      "seccion": "requisitos",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-pasos-0",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Reunir documentación requerida según el tipo de actividad.",
+      "seccion": "pasos",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-pasos-1",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Verificar si la actividad requiere condiciones o habilitaciones adicionales.",
+      "seccion": "pasos",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-pasos-2",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Presentar la solicitud en la dependencia correspondiente o por el portal habilitado.",
+      "seccion": "pasos",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-pasos-2",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Revisar el estado de cuenta o vencimiento.",
+      "seccion": "pasos",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "info-municipal-resultado-0",
+      "procedureId": "info-municipal",
+      "titulo": "Información municipal",
+      "text": "Orientación inicial para saber por dónde continuar la consulta o el trámite.",
+      "seccion": "resultado",
+      "categoria": "institucional",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "info-municipal-descripcion",
+      "procedureId": "info-municipal",
+      "titulo": "Información municipal",
+      "text": "Información municipal. Referencia general sobre horarios, canales de atención y puntos de orientación municipal. Agrupa datos básicos para saber cuándo y por dónde iniciar una consulta municipal.",
+      "seccion": "descripcion",
+      "categoria": "institucional",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "info-municipal-horarios-0",
+      "procedureId": "info-municipal",
+      "titulo": "Información municipal",
+      "text": "Atención general: lunes a viernes de 07:00 a 16:00, sábados de 07:30 a 11:30.",
+      "seccion": "horarios",
+      "categoria": "institucional",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "info-municipal-lugar_canal-0",
+      "procedureId": "info-municipal",
+      "titulo": "Información municipal",
+      "text": "Portal ciudadano en portal-ciudadano.asuncion.gov.py, dependencias municipales, centros municipales y teléfono (+595 21) 627-3000.",
+      "seccion": "lugar_canal",
+      "categoria": "institucional",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-costos-0",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "El costo depende del tipo de actividad y categoría comercial. Consultar en la sección de formularios y requisitos.",
+      "seccion": "costos",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-plazos-0",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "La validación depende del control documental y de la revisión del rubro declarado.",
+      "seccion": "plazos",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-lugar_canal-0",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Atención presencial o a través del portal ciudadano en portal-ciudadano.asuncion.gov.py.",
+      "seccion": "lugar_canal",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-horarios-0",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Lunes a viernes de 07:00 a 16:00.",
+      "seccion": "horarios",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-resultado-0",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Registro o renovación de la licencia o patente comercial habilitada.",
+      "seccion": "resultado",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "habilitacion-observaciones-0",
+      "procedureId": "habilitacion",
+      "titulo": "Habilitación comercial",
+      "text": "Algunas actividades pueden requerir inspecciones o validaciones complementarias antes de la habilitación.",
+      "seccion": "observaciones",
+      "categoria": "habilitacion",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Formularios y requisitos — Comercio, Industria y Profesiones",
+        "url": "https://www.asuncion.gov.py/formularios-y-requisitos/comercio-industria-profesiones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-descripcion",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Patente comercial e impuestos municipales. Consulta de tasas, vencimientos y medios de pago asociados a la patente comercial e impuestos municipales. Ayuda a ubicar vencimientos, cuenta y canal de pago.",
+      "seccion": "descripcion",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-requisitos-0",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Número de cuenta o referencia municipal.",
+      "seccion": "requisitos",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-requisitos-1",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Documento del titular o representante.",
+      "seccion": "requisitos",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-pasos-0",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Ingresar al sistema de recaudación en línea o acudir a ventanilla.",
+      "seccion": "pasos",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-pasos-1",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Ubicar la cuenta o referencia del impuesto.",
+      "seccion": "pasos",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-pasos-2",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Revisar el estado de la obligación y vencimientos.",
+      "seccion": "pasos",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-pasos-3",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Realizar el pago por el canal disponible.",
+      "seccion": "pasos",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-costos-0",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Monto sujeto al estado de cuenta y la obligación municipal. Descuento del 8% para pagos en efectivo. Consultar promociones vigentes de exención de multas.",
+      "seccion": "costos",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-plazos-0",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Revisar vigencia y vencimientos informados. Hasta el 30/04/2026 hay exención del 100% de multas por regularización.",
+      "seccion": "plazos",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-lugar_canal-0",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Pago en línea en gestionasu.asuncion.gov.py, cajas habilitadas o dependencias de administración y finanzas.",
+      "seccion": "lugar_canal",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-horarios-0",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Los horarios dependen del canal de pago elegido.",
+      "seccion": "horarios",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-resultado-0",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Regularización del pago o confirmación de estado de cuenta al día.",
+      "seccion": "resultado",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "patente-observaciones-0",
+      "procedureId": "patente",
+      "titulo": "Patente comercial e impuestos municipales",
+      "text": "Conviene revisar si existen recargos, intereses o vencimientos acumulados antes de pagar.",
+      "seccion": "observaciones",
+      "categoria": "patente",
+      "tipo": "tramite",
+      "fuente": {
+        "titulo": "Recaudación en línea — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-descripcion",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Reclamos y expedientes. Servicio para seguir reclamos, expedientes o gestiones iniciadas por el ciudadano ante la municipalidad. Permite ubicar el canal correcto y revisar el estado de una gestión o reclamo.",
+      "seccion": "descripcion",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-requisitos-0",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Número de expediente o reclamo si ya fue iniciado.",
+      "seccion": "requisitos",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-requisitos-1",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Datos del solicitante (nombre, cédula).",
+      "seccion": "requisitos",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-pasos-0",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Acceder al sistema de reclamos en línea o al portal ciudadano.",
+      "seccion": "pasos",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "reclamos-pasos-1",
+      "procedureId": "reclamos",
+      "titulo": "Reclamos y expedientes",
+      "text": "Ingresar el número de expediente o datos del reclamo.",
+      "seccion": "pasos",
+      "categoria": "reclamos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "Reclamos y trámites — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/reclamos-y-tramites"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-pasos-3",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Elegir el canal de pago y completar la operación.",
+      "seccion": "pasos",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-costos-0",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "El monto depende del tributo, tasa o patente consultada. Descuento del 8% pagando en efectivo. Exención de multas vigente hasta el 30/04/2026.",
+      "seccion": "costos",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-plazos-0",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Los vencimientos y recargos dependen del calendario de cada obligación municipal.",
+      "seccion": "plazos",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-lugar_canal-0",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Sistema en línea en gestionasu.asuncion.gov.py, portal de recaudaciones, cajas habilitadas o dependencias de administración y finanzas.",
+      "seccion": "lugar_canal",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-horarios-0",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Los horarios dependen del canal elegido para realizar el pago o la consulta.",
+      "seccion": "horarios",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-resultado-0",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Orientación para ubicar el tributo correcto y completar el pago por el medio disponible.",
+      "seccion": "resultado",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "tasas-observaciones-0",
+      "procedureId": "tasas",
+      "titulo": "Tasas y recaudación municipal",
+      "text": "Conviene confirmar si el pago puede realizarse en línea o si requiere atención presencial según el tipo de obligación.",
+      "seccion": "observaciones",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Recaudaciones — Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/recaudaciones"
+      },
+      "fecha": "2026-04-11",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-0",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-1",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "La Comuna Capitalina dispone de diversos canales para el pago de los tributos, tasas y aranceles de forma remota, con el fin de evitar la aglomeración de personas y que los contribuyentes puedan cumplir con sus obligaciones tributarias desde donde se encuentren.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-2",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "En este sentido, todos los contribuyentes que cuenten con celulares con sistema operativo Android o IOS, pueden descargar la aplicación Pago Móvil, sin costo. Desde aquí se pueden abonar: Registros de Conducir; Patentes de Rodados, Comercial, Profesional/Oficios; Impuestos Inmobiliarios y Tasas Especiales. También pueden acceder a realizar el pago online a través de la web: www.infonet.com.py.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-3",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "Este método, además de ser ágil y sencillo, elimina el tiempo de viaje o de espera en las filas de cajas de las bocas de cobranza habilitadas, ya que las gestiones se realizan en la comodidad de la casa, y por sobre todo, se evita la exposición que supone las aglomeraciones o concentración de personas en un mismo lugar.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-4",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "Para conocer el monto y número de la factura a abonar por los tributos, tasas o aranceles de la Municipalidad de Asunción, los contribuyentes pueden llamar al Call Center de la Dirección de Recaudaciones de la Comuna 021-627-3010, que atiende de lunes a viernes de 08:00 a 16:00 horas y los sábados de 08:00 a 11:00 horas, desde donde podrán obtener toda la información.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-5",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "Otros canales para el pago remoto que tiene disponible el Municipio Capitalino son las bocas de Infonet Cobranzas, ubicadas en más de 2.000 comercios de todo el país. Aquí también el contribuyente solo debe acudir con el monto de la factura a abonar, con el medio de pago de su preferencia, ya sea débito, efectivo y hasta con tarjeta de crédito.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-5",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Otra opción es pagar con un solo click, desde la aplicación Pago Móvil, las 24 horas, los siete días de la semana, a través del celular o desde una computadora con acceso a Internet.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-6",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "También están disponibles las Auto Cajas que se encuentran localizadas en el Bloque C de la Municipalidad de Asunción, que funcionan de lunes a viernes de 08:00 a 16:00 horas y los sábados de 08:00 a 11:00 horas, desde donde, sin descender de los vehículos, se puede cumplir con las obligaciones tributarias.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-7",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "En el caso de la revalidación anual de la licencia de conducir, una vez abonada de forma remota, solo es necesario ir hasta la Auto Caja de la Municipalidad para obtener el sticker.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-8",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "De esta forma, la Municipalidad de Asunción se mantiene a la vanguardia de los sistemas de pagos, que se consideran en la actualidad muy útiles para mantener el distanciamiento social recomendado, con el fin de evitar la propagación de la COVID-19, además de ajustarse al nuevo comportamiento de los usuarios que exigen cada vez más alternativas acordes a su estilo de vida.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-9",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "Intendente de Asunción y presidente de la Cámara Municipal de Curitiba acordaron trabajar conjuntamente para beneficio de ambas ciudades",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-remotos-snapshot-10",
+      "procedureId": null,
+      "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+      "text": "El intendente de Asunción, Luis Bello, recibió, en su despacho, al presidente de la Cámara Municipal de la ciudad de Curitiba, capital del estado de Paraná – Brasil, Tico Kuzma, con quien avanzó en una agenda de trabajo conjunta, en el marco del hermanamiento entre ambas ciudades. El Gobierno de la Ciudad de Asunción cree…",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "La Municipalidad de Asunción pone al alcance de la ciudadanía nuevas alternativas para el pago de tributos de forma remota",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota"
+      },
+      "fecha": "2026-04-11T18:11:17.702Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-0",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-1",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Con el objetivo de lograr optimización, facilidad y comodidad para los contribuyentes, la Municipalidad de Asunción amplía las opciones de pago de tributos a través de la Red de Infonet Cobranzas y la aplicación para teléfonos celulares inteligentes Pago Móvil.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-2",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Esto fue anunciado en una conferencia de prensa realizada en la mañana de este jueves 17 de mayo, en la Comuna Capitalina, que contó con la presencia del intendente capitalino Mario Ferreiro.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-3",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Participaron también del acto el director general de Administración y Finanzas, Braulio Ferreira; el director de Recaudaciones, Rolando Alvarenga; el director de Hacienda, Oscar Orué; el secretario general, Javier Candia; la directora general de Comunicación; Liza Paredes; la directora de Recursos Humanos, Mirtha Frutos; el director general de Relaciones Interinstitucionales y Cooperación Externa, Hermann Ratzlaff; el director de Planeamiento Urbano, Antonio Coscia; el director de Catastro, Anatoli Pugin y otras altas autoridades municipales. Por Bancard participó su gerente general, Gloria Ortega.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-4",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Cabe destacar que con este nuevo servicio de cobranzas los contribuyentes podrán abonar el 100% de los tributos municipales, toda vez que tengan el número de la factura, esto incluye Registro de Conducir, Patente de Rodados, Patente Comercial, Impuesto Inmobiliario, Tasas especiales y Patente Profesional/Oficios a través de la Red Infonet, que tiene alrededor de 1.600 bocas de cobranzas en todo el país.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-6",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "La descentralización del pago de los tributos constituye un gran paso que significa facilitar los trámites para los asuncenos, evitando la necesidad de acudir hasta la sede central del municipio capitalino, ahorrando tiempo y dinero.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-7",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Con esta facilidad, el usuario ya no tendrá necesidad de formar filas ni preocuparse por los retrasos en el pago de cumplimientos.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-8",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Para utilizar el servicio de Pago Móvil, los contribuyentes deben descargar la aplicación en la APP Store de Android o Apple e instalar en su Smartphone la aplicación Pago Móvil, registrarse con sus datos personales, buscar en la grilla de servicios Municipalidad de Asunción y elegir la tarjeta (débito o crédito) con la que se va pagar.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-9",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Luego de realizar el pago a través de la aplicación el usuario podrá visualizar el ticket de pago ingresando a su perfil en la aplicación y a través de su correo electrónico.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-10",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "La Municipalidad de Asunción, ya en el 2017, habilitó para los contribuyentes la posibilidad de pagar impuestos inmobiliarios y tasas a través de la Red Infonet y Pago Móvil y ahora amplía esta posibilidad a la totalidad de los tributos municipales.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-11",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Justamente, uno de los ejes principales del Gobierno Municipal es avanzar decididamente hacia el gobierno electrónico.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-12",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "En la oportunidad el jefe comunal capitalino resaltó que este es un logro obtenido a través de un trabajo en equipo entre la Municipalidad de Asunción y la empresa Bancard.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-13",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Valoró también la ventaja que significa para el contribuyente no tener que venir hasta la Municipalidad de Asunción para ponerse al día con sus tributos municipales.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-14",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "“Es un contratiempo para la gente venir, hacer la fila, hacer el trámite, que el funcionario municipal vea si está el cheque bien redactado, si no se equivocó la fecha, si hay coincidencia de firmas, todos los procedimientos. Y todo esto uno se puede evitar ya realizando el pago a través de un Smartphone”, enfatizó.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-15",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Reconoció asimismo que muchos le reclamaban que pagos de servicios mucho más sencillos se podían hacer electrónicamente y los relacionados a tributos municipales no.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-16",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "“Bueno, con esto celebro dar ese gran paso y la Municipalidad se pone a la altura tecnológica de otras instituciones y también del sector privado que hace rato ya lo hizo. Entonces, es genial que también rompamos esos prejuicios. El que, por un lado la Municipalidad como institución muy burocrática no es capaz de hacerlo y por otro lado que la ciudadanía supuestamente no está preparada. Ambos prejuicios se rompen absolutamente con este paso que damos”, recalcó.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "pagos-descentralizados-snapshot-17",
+      "procedureId": null,
+      "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+      "text": "Auguró además que con este avance tecnológico se pueda lograr una mayor formalización en la ciudad capital.",
+      "seccion": "fuente",
+      "categoria": "patente",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Se amplía sistema de pago descentralizado de tributos municipales para comodidad de los contribuyentes",
+        "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes"
+      },
+      "fecha": "2026-04-11T18:11:18.186Z",
+      "embedding": []
+    },
+    {
+      "id": "recoleccion-normalizacion-snapshot-0",
+      "procedureId": null,
+      "titulo": "La Dirección de Servicios Urbanos del Gobierno de la ciudad ha regularizado la recolección de basura en Asunción",
+      "text": "La Dirección de Servicios Urbanos del Gobierno de la ciudad ha regularizado la recolección de basura en Asunción",
+      "seccion": "fuente",
+      "categoria": "servicios-urbanos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "La Dirección de Servicios Urbanos del Gobierno de la ciudad ha regularizado la recolección de basura en Asunción",
+        "url": "https://www.asuncion.gov.py/servicios-urbanos/la-direccion-de-servicios-urbanos-del-gobierno-de-la-ciudad-ha-regularizado-la-recoleccion-de-basura-en-asuncion"
+      },
+      "fecha": "2026-04-11T18:11:19.309Z",
+      "embedding": []
+    },
+    {
+      "id": "recoleccion-normalizacion-snapshot-1",
+      "procedureId": null,
+      "titulo": "La Dirección de Servicios Urbanos del Gobierno de la ciudad ha regularizado la recolección de basura en Asunción",
+      "text": "La Dirección de Servicios Urbanos (DSU) del Gobierno de la Ciudad de Asunción cerró el primer mes del año 2026 con un total de 19.299.050 kilogramos de residuos sólidos recolectados en distintos puntos de la Capital.",
+      "seccion": "fuente",
+      "categoria": "servicios-urbanos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "La Dirección de Servicios Urbanos del Gobierno de la ciudad ha regularizado la recolección de basura en Asunción",
+        "url": "https://www.asuncion.gov.py/servicios-urbanos/la-direccion-de-servicios-urbanos-del-gobierno-de-la-ciudad-ha-regularizado-la-recoleccion-de-basura-en-asuncion"
+      },
+      "fecha": "2026-04-11T18:11:19.309Z",
+      "embedding": []
+    },
+    {
+      "id": "recoleccion-normalizacion-snapshot-2",
+      "procedureId": null,
+      "titulo": "La Dirección de Servicios Urbanos del Gobierno de la ciudad ha regularizado la recolección de basura en Asunción",
+      "text": "Del total registrado, 14.047.610 kilogramos corresponden al servicio regular de recolección de desechos domiciliarios, comerciales y de grandes generadores en los barrios de Asunción.",
+      "seccion": "fuente",
+      "categoria": "servicios-urbanos",
+      "tipo": "servicio",
+      "fuente": {
+        "titulo": "La Dirección de Servicios Urbanos del Gobierno de la ciudad ha regularizado la recolección de basura en Asunción",
+        "url": "https://www.asuncion.gov.py/servicios-urbanos/la-direccion-de-servicios-urbanos-del-gobierno-de-la-ciudad-ha-regularizado-la-recoleccion-de-basura-en-asuncion"
+      },
+      "fecha": "2026-04-11T18:11:19.309Z",
+      "embedding": []
+    },
+    {
+      "id": "movilidad-urbana-snapshot-0",
+      "procedureId": null,
+      "titulo": "Mapas de Movilidad Urbana - Municipalidad de Asunción",
+      "text": "Usted podrá descargar la cartografía en formatos CSV, KMZ, KML, CVX de la ciudad, compatible con los sistemas de información geográfica.",
+      "seccion": "fuente",
+      "categoria": "centros",
+      "tipo": "informacion",
+      "fuente": {
+        "titulo": "Mapas de Movilidad Urbana - Municipalidad de Asunción",
+        "url": "https://www.asuncion.gov.py/mapas-de-movilidad-urbana"
+      },
+      "fecha": "2026-04-11T18:11:19.715Z",
+      "embedding": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "centros-municipales",
+      "titulo": "Centros municipales",
+      "url": "https://www.asuncion.gov.py/centros-municipales",
+      "categoria": "centros",
+      "tipo": "informacion"
+    },
+    {
+      "id": "pagos-remotos",
+      "titulo": "Pago remoto de tributos",
+      "url": "https://www.asuncion.gov.py/admin-y-finanzas/la-municipalidad-de-asuncion-pone-al-alcance-de-la-ciudadania-nuevas-alternativas-para-el-pago-de-tributos-de-forma-remota",
+      "categoria": "patente",
+      "tipo": "informacion"
+    },
+    {
+      "id": "pagos-descentralizados",
+      "titulo": "Pago descentralizado de tributos",
+      "url": "https://www.asuncion.gov.py/admin-y-finanzas/se-amplia-sistema-pago-descentralizado-tributos-municipales-comodidad-los-contribuyentes",
+      "categoria": "patente",
+      "tipo": "informacion"
+    },
+    {
+      "id": "presupuesto",
+      "titulo": "Presupuesto municipal",
+      "url": "https://www.asuncion.gov.py/presupuesto",
+      "categoria": "institucional",
+      "tipo": "informacion"
+    },
+    {
+      "id": "recoleccion-normalizacion",
+      "titulo": "Normalizacion de recoleccion",
+      "url": "https://www.asuncion.gov.py/servicios-urbanos/la-direccion-de-servicios-urbanos-del-gobierno-de-la-ciudad-ha-regularizado-la-recoleccion-de-basura-en-asuncion",
+      "categoria": "servicios-urbanos",
+      "tipo": "servicio"
+    },
+    {
+      "id": "movilidad-urbana",
+      "titulo": "Mapas de movilidad urbana",
+      "url": "https://www.asuncion.gov.py/mapas-de-movilidad-urbana",
+      "categoria": "centros",
+      "tipo": "informacion"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: mi-muni-db
+    environment:
+      POSTGRES_USER: municipal
+      POSTGRES_PASSWORD: municipal
+      POSTGRES_DB: municipal_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U municipal -d municipal_db" ]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.playwright
+    container_name: mi-muni-api
+    working_dir: /app
+    command: ["/bin/sh", "/app/scripts/docker/boot-node.sh", "npm", "run", "dev:back"]
+    env_file:
+      - .env.local
+    environment:
+      PGHOST: postgres
+      PGPORT: 5432
+      PGUSER: municipal
+      PGPASSWORD: municipal
+      PGDATABASE: municipal_db
+      # Sin SSL en red interna de Docker (no aplica en Railway)
+      PGSSLMODE: disable
+      RAG_SPIDER_ENABLED: "true"
+      RAG_SPIDER_INTERNAL_URL: http://worker:8790
+      RAG_ARTIFACT_DIR: /app/server/data/rag-artifacts
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - .:/app
+      - mi_muni_backend_node_modules:/app/node_modules
+      - rag_artifacts:/app/server/data/rag-artifacts
+    ports:
+      - "8787:8787"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.playwright
+    container_name: mi-muni-worker
+    working_dir: /app
+    command: ["/bin/sh", "/app/scripts/docker/boot-node.sh", "npm", "run", "spider"]
+    env_file:
+      - .env.local
+    environment:
+      PGHOST: postgres
+      PGPORT: 5432
+      PGUSER: municipal
+      PGPASSWORD: municipal
+      PGDATABASE: municipal_db
+      PGSSLMODE: disable
+      RAG_ARTIFACT_DIR: /app/server/data/rag-artifacts
+      RAG_SPIDER_PORT: 8790
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - .:/app
+      - mi_muni_worker_node_modules:/app/node_modules
+      - rag_artifacts:/app/server/data/rag-artifacts
+    expose:
+      - "8790"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  frontend:
+    image: node:20-alpine
+    container_name: mi-muni-web
+    working_dir: /app
+    command: ["/bin/sh", "/app/scripts/docker/boot-node.sh", "npx", "vite", "--host", "0.0.0.0", "--port", "4173"]
+    environment:
+      VITE_API_BASE_URL: http://127.0.0.1:8787
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - .:/app
+      - mi_muni_frontend_node_modules:/app/node_modules
+    ports:
+      - "4173:4173"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+  mi_muni_backend_node_modules:
+  mi_muni_worker_node_modules:
+  mi_muni_frontend_node_modules:
+  rag_artifacts:

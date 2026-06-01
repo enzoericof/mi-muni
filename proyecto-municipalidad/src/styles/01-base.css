@@ -1,0 +1,123 @@
+/* ─── Tokens ──────────────────────────────────────────────────────────────── */
+:root {
+  /* Paleta */
+  --green-900: #146152;
+  --green-700: #44803f;
+  --green-100: #e8f4e8;
+  --green-50:  #f0f7f0;
+  --lime:      #b4cf66;
+  --coral:     #ff5a33;
+  --ink:       #0f1f18;
+  --ink-2:     #3d5c4f;
+  --ink-3:     #7a9e8e;
+  --surface:   #ffffff;
+  --bg:        #edf4eb;
+  --border:    rgba(20, 97, 82, 0.12);
+  --border-md: rgba(20, 97, 82, 0.2);
+
+  /* Tipografía */
+  --font-ui:   'Inter', 'Segoe UI', sans-serif;
+  --font-head: 'Sora', 'Inter', sans-serif;
+  --fs-hero:   clamp(2rem, 4.5vw, 2.8rem);
+  --fs-h2:     1.25rem;
+  --fs-h3:     1rem;
+  --fs-body:   0.9rem;
+  --fs-sm:     0.8rem;
+  --fs-xs:     0.7rem;
+  --lh-body:   1.65;
+
+  /* Espaciado */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-12: 3rem;
+
+  /* Bordes */
+  --r-sm:  6px;
+  --r-md:  10px;
+  --r-lg:  16px;
+  --r-xl:  24px;
+  --r-pill: 999px;
+
+  /* Botón — único */
+  --btn-h:   2.5rem;
+  --btn-px:  1.1rem;
+  --shadow-card: 0 1px 3px rgba(0,0,0,.04), 0 6px 20px rgba(20,97,82,.07);
+  --shadow-pop:  0 4px 24px rgba(20,97,82,.14);
+  --site-header-height: 3.5rem;
+  --page-edge-gutter: clamp(var(--sp-4), 3vw, var(--sp-8));
+  --brand-mark-size: 2.35rem;
+  --brand-mark-gap: 0.34rem;
+}
+
+/* ─── Reset ───────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: var(--bg);
+  font-family: var(--font-ui);
+  color: var(--ink);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, a { font: inherit; }
+button { cursor: pointer; }
+p { margin: 0; }
+h1, h2, h3, h4 { margin: 0; font-family: var(--font-head); }
+
+/* ─── Ambient decoration ──────────────────────────────────────────────────── */
+.municipal-app {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.ambient {
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.35;
+}
+.ambient-left  { width: 28rem; height: 28rem; top: -8rem;  left: -6rem;  background: rgba(20, 97, 82, 0.22); }
+.ambient-right { width: 24rem; height: 24rem; top: 14rem;  right: -8rem; background: rgba(68,128,63,.14); }
+
+.grid-haze {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    linear-gradient(rgba(20,97,82,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20,97,82,.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 80% 60% at center, black 20%, transparent 80%);
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
