@@ -12,6 +12,8 @@ env.download
 dev.err
 dev.log
 fiweex page.txt
+System Card.docx
+System Card.pdf
 
 .vercel
 .env*.local
