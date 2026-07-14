@@ -868,7 +868,7 @@ export async function getCollectionMap({ includeRouteShapes = true, municipality
       `)
       : Promise.resolve({ rows: [] }),
     liveVehicleFeedEnabled
-      ? getVehiclePositions({ includeSimulated: runtime.simulationEnabled })
+      ? getVehiclePositions({ includeSimulated: false })
       : Promise.resolve([]),
   ])
   const routeShapes = includeRouteShapes && liveVehicleFeedEnabled ? await getRouteShapesForVehicles(vehicles) : {}
@@ -1011,7 +1011,7 @@ export async function getCollectionOverview(zoneId, { municipalityId = '', munic
     getBarrioRouteSummaries(barrioId),
     getBarrioHistoryRows(barrioId),
     normalizedMunicipalitySlug === DEFAULT_COLLECTION_MUNICIPALITY_SLUG
-      ? getVehiclePositions({ includeSimulated: runtime.simulationEnabled })
+      ? getVehiclePositions({ includeSimulated: false })
       : Promise.resolve([]),
     query(
       `
