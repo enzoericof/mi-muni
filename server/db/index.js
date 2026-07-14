@@ -5,6 +5,16 @@ const { Pool } = pg
 
 let pool = null
 
+function isServerlessRuntime() {
+  return Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME)
+}
+
+function getDefaultPoolMax(connectionString = '') {
+  if (isServerlessRuntime()) return 1
+  if (/supabase\.com|supabase\.co/i.test(connectionString)) return 3
+  return 10
+}
+
 function isTransientConnectionError(error) {
   const message = String(error?.message || '').toLowerCase()
   return (
@@ -32,9 +42,11 @@ function buildDatabaseConfig() {
     return {
       connectionString,
       ssl: shouldUseSsl ? { rejectUnauthorized: false } : undefined,
+      max: Number(process.env.PG_POOL_MAX || getDefaultPoolMax(connectionString)),
       keepAlive: true,
-      idleTimeoutMillis: Number(process.env.PG_IDLE_TIMEOUT_MS || 30000),
+      idleTimeoutMillis: Number(process.env.PG_IDLE_TIMEOUT_MS || (isServerlessRuntime() ? 5000 : 30000)),
       connectionTimeoutMillis: Number(process.env.PG_CONNECT_TIMEOUT_MS || 10000),
+      allowExitOnIdle: isServerlessRuntime(),
     }
   }
 
@@ -44,9 +56,11 @@ function buildDatabaseConfig() {
     user: process.env.PGUSER || 'municipal',
     password: process.env.PGPASSWORD || 'municipal',
     database: process.env.PGDATABASE || 'municipal_db',
+    max: Number(process.env.PG_POOL_MAX || getDefaultPoolMax()),
     keepAlive: true,
-    idleTimeoutMillis: Number(process.env.PG_IDLE_TIMEOUT_MS || 30000),
+    idleTimeoutMillis: Number(process.env.PG_IDLE_TIMEOUT_MS || (isServerlessRuntime() ? 5000 : 30000)),
     connectionTimeoutMillis: Number(process.env.PG_CONNECT_TIMEOUT_MS || 10000),
+    allowExitOnIdle: isServerlessRuntime(),
   }
 }
 
