@@ -1,8 +1,10 @@
 import MiniTrashMap from '../map/MiniTrashMap'
 import { useHashRoute } from '../../lib/router'
+import { useAppContext } from '../../lib/AppContext'
 
 function HeroMiniMap() {
   const { navigate } = useHashRoute()
+  const { municipality } = useAppContext()
 
   function openCollectionMap() {
     navigate('/recoleccion')
@@ -18,6 +20,7 @@ function HeroMiniMap() {
     <div className="hero-card hero-card-map">
       <div className="hero-card-eyebrow">
         <span className="eyebrow">Recolección</span>
+        <span className="hero-card-municipality">{municipality?.label || 'Asunción'}</span>
       </div>
       <h2 className="hero-card-title">Mapa de recolectores</h2>
       <p className="hero-card-lede">
