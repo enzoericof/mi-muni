@@ -8,12 +8,6 @@ import { addGoogleMapTilesLayer } from '../../lib/googleMapTiles'
 
 const ASU_CENTER = [-25.2867, -57.61]
 const REFRESH_MS = 60_000
-const POTHOLE_PREVIEW_MARKERS = [
-  { id: 'p-1', lat: -25.2974, lon: -57.5878, level: 'high' },
-  { id: 'p-2', lat: -25.2898, lon: -57.6122, level: 'medium' },
-  { id: 'p-3', lat: -25.311, lon: -57.5986, level: 'low' },
-  { id: 'p-4', lat: -25.2799, lon: -57.5692, level: 'high' },
-]
 
 function truckMarkerHtml(color) {
   return `
@@ -36,24 +30,6 @@ function userMarkerHtml() {
       border-radius:50%;
       width:18px;height:18px;
       box-shadow:0 0 0 6px rgba(255,90,51,0.22);
-    "></div>`
-}
-
-function potholeMarkerHtml(level) {
-  const palette = {
-    high: { fill: '#ff5a33', halo: 'rgba(255,90,51,0.22)' },
-    medium: { fill: '#44803f', halo: 'rgba(68,128,63,0.2)' },
-    low: { fill: '#146152', halo: 'rgba(20,97,82,0.18)' },
-  }
-  const token = palette[level] || palette.low
-
-  return `
-    <div style="
-      background:${token.fill};
-      border:2px solid #fff;
-      border-radius:50%;
-      width:18px;height:18px;
-      box-shadow:0 0 0 7px ${token.halo}, 0 8px 16px rgba(0,0,0,0.18);
     "></div>`
 }
 
@@ -127,9 +103,11 @@ function MiniTrashMap({ mode = 'collection', showOverlay = true, showMarkers = t
     // Re-invalidating the size avoids partially painted or blank mini maps.
     resizeFrame = window.requestAnimationFrame(() => {
       map.invalidateSize({ pan: false, animate: false })
+      applyMunicipalityView(map, municipality)
     })
     resizeTimeout = window.setTimeout(() => {
       map.invalidateSize({ pan: false, animate: false })
+      applyMunicipalityView(map, municipality)
     }, 180)
 
     return () => {
@@ -141,6 +119,18 @@ function MiniTrashMap({ mode = 'collection', showOverlay = true, showMarkers = t
       mapRef.current = null
     }
   }, [])
+
+  useEffect(() => {
+    applyMunicipalityView(mapRef.current, municipality)
+  }, [
+    municipality?.key,
+    municipality?.centerLat,
+    municipality?.centerLon,
+    municipality?.bbox?.minLat,
+    municipality?.bbox?.maxLat,
+    municipality?.bbox?.minLon,
+    municipality?.bbox?.maxLon,
+  ])
 
   useEffect(() => {
     if (isPotholesMode || !showMarkers) return undefined
@@ -189,7 +179,7 @@ function MiniTrashMap({ mode = 'collection', showOverlay = true, showMarkers = t
           : await fetchCollectionMap({ municipalitySlug: municipality?.key || '' })
         if (cancelled) return
         setMapData(nextData)
-        applyMunicipalityView(mapRef.current, nextData?.municipality)
+        applyMunicipalityView(mapRef.current, nextData?.municipality || municipality)
       } catch (_error) {
         // silencioso: es solo preview
       } finally {
@@ -219,18 +209,7 @@ function MiniTrashMap({ mode = 'collection', showOverlay = true, showMarkers = t
     }
 
     if (isPotholesMode) {
-      setPrimaryCount(POTHOLE_PREVIEW_MARKERS.length)
-      for (const marker of POTHOLE_PREVIEW_MARKERS) {
-        L.marker([marker.lat, marker.lon], {
-          icon: L.divIcon({
-            className: '',
-            html: potholeMarkerHtml(marker.level),
-            iconSize: [18, 18],
-            iconAnchor: [9, 9],
-          }),
-          interactive: false,
-        }).addTo(layer)
-      }
+      setPrimaryCount(0)
       return
     }
 
@@ -266,7 +245,7 @@ function MiniTrashMap({ mode = 'collection', showOverlay = true, showMarkers = t
         <span className={`mini-trash-map-pill ${isPotholesMode ? '' : 'is-collection'}`.trim()}>
           {isPotholesMode
             ? `${primaryCount} zonas priorizadas`
-            : `🚛 ${primaryCount} ${primaryCount === 1 ? 'camión activo' : 'camiones activos'}`}
+            : `🚚 ${primaryCount} ${primaryCount === 1 ? 'camión activo' : 'camiones activos'}`}
         </span>
         {!isPotholesMode && locationStatus === 'requesting' && (
           <span className="mini-trash-map-note">Solicitando ubicación…</span>

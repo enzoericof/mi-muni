@@ -1,10 +1,8 @@
 import MiniTrashMap from '../map/MiniTrashMap'
 import { useHashRoute } from '../../lib/router'
-import { useAppContext } from '../../lib/AppContext'
 
 function HeroPotholes() {
   const { navigate } = useHashRoute()
-  const { municipality } = useAppContext()
 
   function openPotholesMap() {
     navigate('/baches')
@@ -20,7 +18,6 @@ function HeroPotholes() {
     <div className="hero-card hero-card-potholes">
       <div className="hero-card-eyebrow">
         <span className="eyebrow">Baches</span>
-        <span className="hero-card-municipality">{municipality?.label || 'Asunción'}</span>
       </div>
       <h2 className="hero-card-title">Mapa de baches</h2>
       <p className="hero-card-lede">
@@ -35,7 +32,7 @@ function HeroPotholes() {
         onClick={openPotholesMap}
         onKeyDown={handleMapKeyDown}
       >
-        <MiniTrashMap mode="potholes" showOverlay={false} showMarkers />
+        <MiniTrashMap mode="potholes" showOverlay={false} showMarkers={false} />
       </div>
 
       <div className="hero-map-foot">
