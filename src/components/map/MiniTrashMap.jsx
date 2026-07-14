@@ -99,6 +99,8 @@ function MiniTrashMap({ mode = 'collection', showOverlay = true, showMarkers = t
 
     let cancelled = false
     let baseLayer = null
+    let resizeFrame = 0
+    let resizeTimeout = 0
     const map = L.map(containerRef.current, {
       zoomControl: false,
       attributionControl: true,
@@ -121,8 +123,19 @@ function MiniTrashMap({ mode = 'collection', showOverlay = true, showMarkers = t
     layersRef.current.user = L.layerGroup().addTo(map)
     mapRef.current = map
 
+    // Leaflet previews inside hero cards sometimes mount before layout settles.
+    // Re-invalidating the size avoids partially painted or blank mini maps.
+    resizeFrame = window.requestAnimationFrame(() => {
+      map.invalidateSize({ pan: false, animate: false })
+    })
+    resizeTimeout = window.setTimeout(() => {
+      map.invalidateSize({ pan: false, animate: false })
+    }, 180)
+
     return () => {
       cancelled = true
+      if (resizeFrame) window.cancelAnimationFrame(resizeFrame)
+      if (resizeTimeout) window.clearTimeout(resizeTimeout)
       baseLayer?.remove()
       map.remove()
       mapRef.current = null

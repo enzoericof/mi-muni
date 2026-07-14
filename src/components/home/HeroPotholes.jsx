@@ -32,7 +32,7 @@ function HeroPotholes() {
         onClick={openPotholesMap}
         onKeyDown={handleMapKeyDown}
       >
-        <MiniTrashMap mode="potholes" showOverlay={false} showMarkers={false} />
+        <MiniTrashMap mode="potholes" showOverlay={false} showMarkers />
       </div>
 
       <div className="hero-map-foot">
